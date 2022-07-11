@@ -161,3 +161,24 @@ h1, h2, h3, h4, h5, h6, p {
     line-height: 39px;
     text-align: center;
 }
+
+.info {
+    background-image: url(../images/info-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    margin-top: 110px;
+}
+
+.info::before {
+    content: "";
+    position: absolute;
+    height: 150px;
+    background-color: #262C27;
+    top: 0;
+    left: 0;
+    right: 0;
+    transform: translateY(-180px);
+    z-index: 1;
+}
