@@ -182,3 +182,48 @@ h1, h2, h3, h4, h5, h6, p {
     transform: translateY(-180px);
     z-index: 1;
 }
+
+.info__top {
+    display: flex;
+    gap: 80px;
+    padding-top: 100px;
+}
+
+.info__top-text {
+    padding-top: 245px;
+    width: 290px;
+    color: #ffffff;
+    position: relative;
+}
+
+.info__top-text-one {
+    padding-bottom: 125px;
+}
+
+.info__top-text--two {
+    border-bottom: 1px solid #fff;
+}
+
+.info__top-img {
+    position: relative;
+    z-index: 6;
+}
+
+.popup-btn {
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.popup-btn span {
+    padding-top: 12px;
+    display: block;
+    color: #ffffff;
+}
+
+.info__btn {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
